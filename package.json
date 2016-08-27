@@ -1,0 +1,27 @@
+{
+  "name": "angular-jspm-boilerplate",
+  "version": "1.0.0",
+  "description": "It is an Angular2-JSPM boilerplate code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chirag Rupani",
+  "license": "ISC",
+  "dependencies": {
+    "jspm": "^0.16.33"
+  },
+  "jspm": {
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-beta.16",
+      "es6-shim": "github:es-shims/es6-shim@^0.35.0",
+      "reflect-metadata": "npm:reflect-metadata@0.1.2",
+      "rxjs": "npm:rxjs@^5.0.0-beta.6",
+      "ts": "github:frankwallis/plugin-typescript@^4.0.7",
+      "zone.js": "npm:zone.js@^0.6.12"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  }
+}
